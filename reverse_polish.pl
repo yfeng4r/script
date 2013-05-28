@@ -13,4 +13,4 @@ foreach (@list) {
     	unshift $stack,eval"$v2 $_ $v1";
     }
 }
-print @$stack;
+say @$stack;
